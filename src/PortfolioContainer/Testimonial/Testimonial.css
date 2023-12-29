@@ -1,0 +1,174 @@
+.testimonial-section {
+  padding: 80px 0 80px;
+  background-image: url("../../../src/assets/Testimonial/bg-1.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-section::before {
+  content: "";
+  position: absolute;
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  opacity: 0.85;
+  background-color: #1f2235;
+}
+.footer-image {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: -110px;
+}
+.footer-image img {
+  max-width: 100%;
+  height: 130px;
+}
+
+.testimonial-section .testi-item {
+  background-color: white;
+  padding: 30px;
+  border-radius: 50px 50px 50px 0px;
+}
+
+.testi-item span {
+  color: #1f2235;
+  font-weight: bold;
+}
+
+.client-info {
+  z-index: -1;
+}
+
+.testimonial-section .client-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.testimonial-section .client-info img {
+  height: 70px;
+  width: 70px;
+  border: 2px solid transparent;
+  border-color: black;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.testimonial-section .owl-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Default styles for screens wider than 1110px */
+
+/* Styles for screens up to 1110px */
+@media only screen and (max-width: 1110px) {
+  .testimonial-section .testi-item {
+    padding: 20px; /* Adjust padding for smaller screens */
+    border-radius: 30px 30px 30px 0px; /* Adjust border-radius */
+  }
+
+  .testimonial-section .client-info img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/* Styles for screens up to 1016px */
+@media only screen and (max-width: 1016px) {
+  .testimonial-section .client-info {
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center;
+  }
+
+  .testimonial-section .client-info img {
+    position: relative; /* Remove absolute positioning */
+    margin-bottom: 10px; /* Add margin for spacing */
+  }
+
+  .testimonial-section .testi-item {
+    padding: 15px; /* Further adjust padding for smaller screens */
+    border-radius: 20px 20px 20px 0px; /* Further adjust border-radius */
+  }
+
+  .testimonial-section .client-info img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* Styles for screens up to 898px */
+@media only screen and (max-width: 898px) {
+  .owl-carousel .owl-item {
+    width: 70vw;
+  }
+
+  .owl-stage-outer {
+    width: 70vw !important;
+  }
+  .owl-stage {
+    width: 70vw !important;
+  }
+  .owl-stage .active {
+    width: 70vw !important;
+  }
+  .col-lg-12 {
+    width: 70vw !important;
+  }
+
+  .testimonial-section .testi-item {
+    padding: 15px; /* Further adjust padding for smaller screens */
+    border-radius: 20px 20px 20px 0px; /* Further adjust border-radius */
+  }
+
+  .testimonial-section .client-info img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* Styles for screens up to 466px */
+@media only screen and (max-width: 466px) {
+  .owl-carousel .owl-item {
+    width: 70vw;
+  }
+
+  .owl-stage-outer {
+    width: 70vw !important;
+  }
+  .owl-stage {
+    width: 70vw !important;
+  }
+  .owl-stage .active {
+    width: 70vw !important;
+  }
+  .col-lg-12 {
+    width: 70vw !important;
+  }
+
+  .testimonial-section .testi-item {
+    padding: 10px; /* Further adjust padding for smallest screens */
+    border-radius: 15px 15px 15px 0px; /* Further adjust border-radius */
+  }
+
+  .testimonial-section .client-info img {
+    height: 30px;
+    width: 30px;
+  }
+}
