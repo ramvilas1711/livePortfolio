@@ -73,14 +73,14 @@ export default function Testimonial(props) {
                   </div>
                   <div className="client-info">
                     <a
-                      href="https://harmonious-syrniki-071cdd.netlify.app"
+                      href="https://nimble-daifuku-abfb17.netlify.app"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <button className="btn primary-btn"> Live Link </button>
                     </a>
                     <a
-                      href="https://github.com/ramvilas1711/liveEcommerce"
+                      href="https://github.com/ramvilas1711/storeWebsite"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
