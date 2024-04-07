@@ -39,7 +39,12 @@ export default function Profile() {
               <h1>
                 <Typical
                   loop={Infinity}
-                  steps={["Software Engineer😎", 1000, "C++ Developer💻", 1000]}
+                  steps={[
+                    "Software Engineer😎",
+                    1000,
+                    "Software Developer💻",
+                    1000,
+                  ]}
                 />
               </h1>
             </span>
