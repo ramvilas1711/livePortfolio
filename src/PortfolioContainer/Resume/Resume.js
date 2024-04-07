@@ -65,6 +65,10 @@ const Resume = (props) => {
     { skill: "Core Java", ratingPercentage: 80 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
+    { skill: "Spring Boot", ratingPercentage: 80 },
+    { skill: "Microservices", ratingPercentage: 80 },
+    { skill: "Linux", ratingPercentage: 80 },
+    { skill: "Design Pattern", ratingPercentage: 80 },
     { skill: "Android Development", ratingPercentage: 30 },
   ];
 
@@ -130,8 +134,21 @@ const Resume = (props) => {
           </span>
           <br />
         </div>
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Developing full-stack applications using Core Java, Spring Boot's
+            REST framework, and React.
+          </span>
+        </div>
+        <div className="experience-description">
+          <span className="resume-description-text">
+            -Designed and deployed Spring Boot microservices for enhanced
+            maintainability and scalability.
+          </span>
+          <br />
+        </div>
       </div>
-      <div className="experience-container">
+      {/* <div className="experience-container">
         <ResumeHeading
           heading={"Ajath InfoTech PVT LMT"}
           subHeading={"Android Developer(Internship)"}
@@ -144,7 +161,7 @@ const Resume = (props) => {
             layouts and functionalities.
           </span>
         </div>
-      </div>
+      </div> */}
     </div>,
 
     /* PROGRAMMING SKILLS */

@@ -21,7 +21,9 @@ export default function AboutMe(props) {
         "Efficient Algorithm Design",
         "Memory Management",
         "Object-Oriented Design",
-        "Debugging and Profiling",
+        "Spring Boot",
+        "Core java",
+        "Microservices",
         "Frontend Technologies",
       ],
       heading: "Here are a Few Highlights:",
@@ -60,7 +62,6 @@ export default function AboutMe(props) {
                 className="btn primary-btn"
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               >
-                {" "}
                 Hire Me{" "}
               </button>
               <a href="ehizcv.pdf" download="Ramvilas.pdf">
