@@ -14,10 +14,11 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Software Engineer specializing in C++ development at HCL, with a strong foundation in languages such as C++, Core Java, HTML, CSS, JavaScript, and React.js. Experienced in crafting efficient solutions, I bring a wealth of knowledge to contribute as a valuable asset to an organization.",
+      "As a passionate Software Engineer with 3 years of experience, I thrive on creating innovative solutions that drive efficiency and enhance user experiences. Currently, at HCL Tech, I have had the opportunity to work on cutting-edge projects that leverage my expertise in full-stack development, API integration, and performance optimization.
+"
     highlights: {
       bullets: [
-        "C++ Expertise",
+        "C++",
         "Efficient Algorithm Design",
         "Memory Management",
         "Object-Oriented Design",
