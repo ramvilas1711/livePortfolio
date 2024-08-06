@@ -123,14 +123,14 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as a Software Engineer on C++ language on
-            differnet type of DSLR Model in Sony project(Trinetra) in HCL .
+            As a passionate Software Engineer with 3 years of experience,  Currently, at HCL Tech, I have had the opportunity to work on cutting-edge projects that leverage my expertise in full-stack development, API integration, and performance optimization.
+
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Key contributor to the Trinetra project, enhancing camera features
-            for DSLR models.
+            - Implemented Essential APIs: Developed critical camera APIs, including the Shooting Function, Playback Menu, and Image Quality Adjustment, significantly improving functionality and user satisfaction.
+
           </span>
           <br />
         </div>
